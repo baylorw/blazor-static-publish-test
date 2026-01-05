@@ -11,3 +11,4 @@ Steps
 1. Check in and push the files.
 1. In GitHub, go to the repo->Settings->Pages.
 1. Set the Branch to main and root then click Save.
+1. Go to your GitHubPages site and then /repo_name.
