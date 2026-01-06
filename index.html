@@ -6,12 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GHPagesExample</title>
     <base href="/blazor-static-publish-test/" />
-    <link rel="preload" id="webassembly" />
+    <link href="_framework/dotnet.vg3soyc9zy.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-cR/rEieEMxS9v0ZE8wyi2vk6nBq1qxA3aaAXs64NPw4=" />
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="GHPagesExample.styles.css" rel="stylesheet" />
-    <script type="importmap"></script>
+    <script type="importmap">{
+  "imports": {
+    "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.dz6eoz60go.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.0j6ezsi0n0.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.vg3soyc9zy.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/blazor.webassembly.66stpp682q.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
+    "./_framework/blazor.webassembly.js": "sha256-3lCWrko3zwspV40aQhs2S/IMkRSarnHRKIdkHhuXIBA=",
+    "./_framework/dotnet.js": "sha256-cR/rEieEMxS9v0ZE8wyi2vk6nBq1qxA3aaAXs64NPw4=",
+    "./_framework/dotnet.native.dz6eoz60go.js": "sha256-JwEgU90H4Gi0/AFbzJNbjK7hYFHXTwRk6iFuhRZJYyw=",
+    "./_framework/dotnet.native.js": "sha256-JwEgU90H4Gi0/AFbzJNbjK7hYFHXTwRk6iFuhRZJYyw=",
+    "./_framework/dotnet.runtime.0j6ezsi0n0.js": "sha256-jCsbbdXoVd1zzGc0fQT2sz4mKuv0ANdurPVGo5Sc2jg=",
+    "./_framework/dotnet.runtime.js": "sha256-jCsbbdXoVd1zzGc0fQT2sz4mKuv0ANdurPVGo5Sc2jg=",
+    "./_framework/dotnet.vg3soyc9zy.js": "sha256-cR/rEieEMxS9v0ZE8wyi2vk6nBq1qxA3aaAXs64NPw4="
+  }
+}</script>
 </head>
 
 <body>
@@ -28,7 +46,7 @@
         <a href="." class="reload">Reload</a>
         <span class="dismiss">🗙</span>
     </div>
-    <script src="_framework/blazor.webassembly#[.{fingerprint}].js"></script>
+    <script src="_framework/blazor.webassembly.66stpp682q.js"></script>
 </body>
 
 </html>
